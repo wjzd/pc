@@ -1,0 +1,83 @@
+div{
+	cursor: default;
+}
+.tdiv{
+	background: #F2EBDD;
+	font-family: "宋体";
+	margin:3em 0px 0px 30%;
+	width: 40%;
+	height: 33em;
+	/*border: 1px solid black;*/
+}
+.mmhf{
+	color: white;
+	width: 100%;
+	height: 3em;
+	line-height: 3em;
+	background: #55422C;
+	
+}
+/*获取验证码*/
+.hqy{
+	color: cadetblue;
+	margin-top: 0.1em;
+	letter-spacing: 0.1em;
+	font-size:0.8em;
+	/*border: 1px solid black*/;
+	width: 6em;
+	margin-right: 0em;
+	margin-left: 75%;
+}
+.hqy:hover{
+	text-decoration:underline;
+	color: orange;
+}
+.mmhf1{
+	margin-left: 5%;
+}
+.zhuyi{
+	color: #870A02;
+}
+.ftable{
+	color: #484030;
+	width: 90%;
+	margin-left: 5%;
+	/*border: 1px solid black;*/
+}
+.ftable td{
+	letter-spacing: 0.2em;
+	padding: 0.5em 0px 0.5em 0px;
+	width: 50%;
+	/*border: 1px solid black;*/
+}
+.input{
+	padding-left:5% ;
+	outline:none;
+	width: 95%;
+	height: 3em;
+}
+/*最下面的按钮*/
+.quxiao{
+	background: #4A4642;
+}
+.quxiao:hover{
+	background: #565351;
+}
+/*找回密码按钮*/
+.zhmm{
+	margin-left: 10%;
+	background: #00A777;
+}
+.zhmm:hover{
+	background: #0ACB93;
+}
+.bdiv{
+	letter-spacing: 0.3em;
+	font-size: 1.1em;
+	line-height: 2.5em;
+	height: 2.5em;
+	color: white;
+	text-align: center;
+	width: 90%;
+	/*border: 1px solid black;*/
+}

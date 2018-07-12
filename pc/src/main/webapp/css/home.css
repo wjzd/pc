@@ -1,0 +1,811 @@
+body{
+	font-family: "微软雅黑";
+	background: #775744;
+}
+td{
+	cursor: default;
+}
+table{
+	border-collapse: collapse;
+}
+.headdiv{
+	position: fixed;
+	background: white;
+	margin-top: -0.5em;
+	width: 100%;
+	height: 2.5em;
+	/*border: 1px solid black;*/
+}
+.headt{
+	
+	margin-left: 1em;
+	font-size: 0.9em;
+	/*border: 1px solid black;*/
+	
+}
+.username{
+	padding-left:1em ;
+	color: #8E7878;
+}
+.moneyt{
+	
+	padding-left:1em ;
+	padding-right: 1em;
+	color: #755437;
+}
+.headt td{
+	
+	/*border: 1px solid black;*/
+}
+.headimg{
+	border-radius: 50%;
+	width: 2.5em;
+	/*border: 1px solid black;*/
+}
+.namew{
+	
+	/*border: 1px solid black;*/
+	margin: -1.3em 0px 0px 5em;
+	height: 1.3em;
+	width: 1.3em;
+}
+.sxiimg{
+	height: 1.3em;
+	width: 1.3em;
+	/*border: 1px solid black;*/
+}
+/*顶部右边的表格*/
+.rightt{
+	text-align: center;
+	height: 2.5em;
+	width: 50%;
+	margin: -2.5em 0px 0px 50%;
+	font-size: 0.9em;
+	color: #755437;
+	/*border: 1px solid black;*/
+	
+}
+.rightt a{
+	 text-decoration:none;
+	color: #755437;;
+}
+.rightt td{
+	/*border: 1px solid black;*/
+}
+.rightt a:hover{
+	color: red;
+}
+.rightt img{
+	width:2em;
+}
+/*头部下面表格布局*/
+.tddiv{
+	border: 1px solid red;
+	width: 100%;
+	height: 100%;
+	background: #544033;
+}
+.tddiv1{
+	overflow-y:scroll;
+	height: 45em;
+	background: #544033;
+	float: left;
+	width: 16.5%;
+	margin-top:2em
+}
+
+/*滚动条样式*/
+.tddiv1::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 1em;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 3em;
+}
+.tddiv1::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 0.1em;
+    -webkit-box-shadow: inset 0 0 5px rgba(229,122,30,1);
+    background: rgba(76,61,48,0.9);
+}
+.tddiv1::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(243,117,8);
+    border-radius: 0;
+    background: rgba(57,40,35,0.9);
+}
+
+
+
+.tddiv2{
+	height: 45em;
+	background: #544033;
+	margin-left: 0.5%;
+	float: left;
+	width: 60%;
+	margin-top:2em;
+}
+.tddiv3{
+	margin-top:2em;
+	height: 45em;
+	background: #544033;
+	margin-left: 1%;
+	float: left;
+	width: 22%;
+}
+/*目录表格*/
+.mulut{
+	background: #544033;
+	color: #A58D6F;
+	width: 100%;
+	height: 2em;
+	/*border: 1px solid black;*/
+}
+.mulut td{
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+.mulut td:hover{
+	color: #EBC580;
+}
+.mulut td:nth-child(1){
+	/*选中时字体的颜色*/
+	color: #EBC580;
+	width: 30%;
+}
+.mulut td:nth-child(2){
+	width: 30%;
+}
+/*选择地区区域*/
+.locationdiv{
+	background: #544033;
+	font-size: 1.1em;
+	color: white;
+	padding-left: 1em;
+	/*border: 1px solid black;*/
+	height: 3em;
+	line-height: 3em;
+}
+
+.locationt{
+	width: 100%;
+	font-size: 0.9em;
+	background: #FFF6E6;
+	color:#47423C ;
+	/*border: 1px solid black;*/
+}
+.bjtd{
+	color: red;
+}
+.locationt td{
+	
+	height: 3em;
+	padding-left: 1em;
+	/*border: 1px solid black;*/
+}
+
+.locationt td:hover{
+	color: red;
+}
+/*下注区域顶部*/
+.xzhead{
+	background: #534032;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.xzhead td{
+	font-size:0.9em;
+	padding: 0.5em 0px 1em 0.5px;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+.xzhead td:nth-child(1){
+	width: 10%;
+}
+.xzhead td:nth-child(2){
+	width:18% ;
+}
+.xzhead td:nth-child(3){
+	width: 13%;
+}
+.xzhead td:nth-child(4){
+	width: 13%;
+}
+.xzhead td:nth-child(5){
+	
+}
+.xzhead td:nth-child(6){
+	width: 9%;
+}
+.xzhead td:nth-child(7){
+	width: 10%;
+}
+.xzhead td:nth-child(8){
+	padding-right:1em ;
+	width: 10%;
+}
+.xzhead div{
+	margin-left: 1em;
+	width: 80%;
+	text-align: center;
+	color: white;
+	border-radius: 2px;
+	height: 2em;
+	line-height: 2em;
+	background: #7B6250;
+	/*border: 1px solid black;*/
+	padding: 0px 0em 0px 0em;
+}
+.xzhead div:hover{
+	background: #DAB779;
+}
+/*足球今日的表格*/
+.numtable{
+	width: 100%;
+	background: #534032;
+	/*border: 1px solid black;*/
+}
+.numtable td{
+	padding-left: 0.5em;
+	/*border: 1px solid black;*/
+}
+.numtable td:nth-child(1){
+	width: 26%;
+}
+.numtable td:nth-child(2){
+	width: 16%;
+}
+
+.numtable td:nth-child(3){
+	width: 13%;
+}
+
+.numtable td:nth-child(4){
+	width: 6%;
+}
+
+.numtable td:nth-child(5){
+	width: 12%;
+}
+
+.numtable td:nth-child(6){
+	width: 11%;
+}
+
+.numtable td:nth-child(7){
+	width: 11%;
+}
+
+.numtable td:nth-child(8){
+	
+}
+.onetr{
+	font-size: 0.9em;
+	color: #FFD68D;
+}
+.onetr td:nth-child(1){
+	font-size: 1.3em;
+	color: #FFFFFF;
+}
+.twotr{
+	font-size: 0.9em;
+	color: #CCB08C;
+}
+.twotr td:nth-child(1){
+	font-size: 1.3em;
+	color: #FFD68D;
+}
+/*下注表格*/
+
+.xztdiv1{
+	cursor: default;
+	display: block;
+}
+.xztdiv2{
+	cursor: default;
+	display: none;
+}
+.xztdiv3{
+	cursor: default;
+	display: none;
+}
+.xztdiv4{
+	cursor: default;
+	display: none;
+}
+.xztable{
+	width: 100%;
+	/*border: 1px solid red;*/
+	background: white;
+}
+.xztable td{
+	height: 2em;
+	padding-left: 1.5em;
+	/*border: 1px solid black;*/
+	
+}
+
+.xztable td:nth-child(1){
+	width: 10%;
+}
+.xztable td:nth-child(2){
+	width:15% ;
+}
+.xztable td:nth-child(3){
+	width: 10%;
+}
+.xztable td:nth-child(4){
+	width: 15%;
+}
+.xztable td:nth-child(5){
+	width: 10%;
+}
+.xztable td:nth-child(6){
+	width: 15%;
+}
+.xztable td:nth-child(7){
+	width:10% ;
+	background: #FEF7EB;
+}
+.xztable td:nth-child(8){
+	background: #FEF7EB;
+	width: ;
+}
+
+/*赔率·span标签*/
+
+.peilvspan{
+	border-radius:0.1em ;
+	padding: 0.2em;
+	color: #E40000;
+	font-weight: 600;
+}
+.peilvspan:hover{
+	color: white;
+	
+	
+	background: orange;
+}
+/*混合*/
+.hunhe{
+	
+}
+.xzys{
+	cursor: default;
+	height: 2em;
+	line-height: 2em;
+	color: white;
+	font-size: 1em;
+	background: #7A6250;
+}
+.xzys:hover{
+	color: #FFD68D;
+}
+/*波色·*/
+.bose{
+	display: none;
+}
+/*特码*/
+.tema{
+	display: none;
+}
+/*百家乐*/
+.bjl{
+	display: none;
+}
+/*箭头*/
+.jiantou{
+	font-weight: 700;
+	font-size: 0.8em;
+	transform:rotate(90deg);
+}
+/*所有玩法td*/
+.allplay{
+	text-align: center;
+}
+.allspan{
+	padding: 0.3em 1em 0.3em 1em;
+	font-size: 0.9em;
+	color: green;
+	border: 1px solid green;
+	background: white;
+	border-radius: 0.2em;
+}
+.allspan:hover{
+	color: white;
+	background: green;
+}
+/*最右边开奖历史*/
+.kjll{
+	
+	background: #2A231F;
+	font-family: "微软雅黑";
+	/*padding: 0.5em 0px 0px 1em;*/
+	text-align: center;
+	line-height: 4em;
+	color: #FFF0D3;
+	font-weight: 500;
+	width: 100%;
+	height: 4em;
+}
+.bqnum{
+	margin-left: 10%;
+	width: 80%;
+	/*border: 1px solid black;*/
+	
+}
+.bqnum td{
+	text-align: center;
+ 	/*border: 1px solid black;*/
+}
+.bqdivd{
+	border-radius: 50%;
+	background: #FFF6E4;
+	/*border: 1px solid black;*/
+	text-align: center;
+	line-height: 2.2em;
+	width: 2.2em;
+	height:2.2em;
+}
+.kjnum{
+	/*background: #2A231F;*/
+	font-size: 0.9em;
+	/*border: 1px solid black;*/
+	width: 100%;
+}
+.kjnum td{
+	height:2.5em;
+	/*text-align: center;
+	border: 1px solid black;*/
+}
+/*.kjnum tr:nth-child(2n){
+	background: #2A231F;
+}*/
+.kjnum td:nth-child(1){
+	width:40%;
+}
+.kjnum td:nth-child(2){
+	font-weight: 600;
+	width:20%;
+}
+.kjnum td:nth-child(3){
+	width:20%;
+}
+.kjnum td:nth-child(4){
+	width:20%;
+}
+/*筹码logo*/
+.logodiv{
+	text-align: center;
+	line-height: 2.3em;
+	width: 2.3em;
+	height:2.2em;
+	/*border: 1px solid black;*/
+}
+/*蓝色*/
+.numlogo1{
+	
+	background-image: url(../img/tubiao/blue-1.png);
+}
+.numlogo2{
+	
+	background-image: url(../img/tubiao/green-1.png);
+}
+.numlogo3{
+	
+	/*border: 1px solid black;*/
+	background-image: url(../img/tubiao/red-1.png);
+}
+
+/*点击左边的目录隐藏交易单和我的注单*/
+.muludiv{
+	
+	display: block;
+}
+/*交易单div*/
+.jyddiv{
+	display: none;
+	background: #554033 ;
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.dytz{
+	
+	/*border: 1px solid black;*/
+	height: 3em;
+	line-height: 3em;
+	padding-left: 1em;
+	color: white;
+}
+.tztishi{
+	/*display: none;*/
+	font-size: 0.9em;
+	height: 3em;
+	line-height: 3em;
+	background: white;
+}
+/*下注表格*/
+.xzt{
+	display: none;
+	background: #554033 ;
+	width:100%;
+	/*border: 1px solid black;*/
+}
+.xzt td{
+	/*border: 1px solid black;*/
+}
+.xzt td:nth-child(1){
+	width: 33.333%;
+}
+.xzt td:nth-child(2){
+	width: 33.333%;
+}
+.xzt td:nth-child(3){
+	width:33.33%;
+}
+.xzdiv{
+	border-radius: 4px;
+	margin-left: 2%;
+	width: 96%;
+	background: white;
+	height: 2.5em;
+}
+.xzinput{
+	padding-left: 1em;
+	outline:none;
+	border: none;
+	width: 70%;
+	height: 2.5em;
+}
+.nowl{
+	line-height: 2em;
+	padding-left: 1em;
+	width: 100%;
+	height: 2em;
+}
+.qxdiv{
+	color: #5A5653;
+	margin-left: 79%;
+	margin-top: -1.5em;
+	border-radius: 5px;
+	background: #FBE9DD;
+	font-size: 1.3em;
+	text-align: center;
+	width: 1.5em;
+	height:1.5em;
+	line-height: 1.5em;
+}
+.qxdiv:hover{
+	background: #FDD8C1;
+}
+.kymoney{
+	color: #CCB08C;
+	padding-left: 0.6em;
+	height: 2em;
+	font-size:0.8em ;
+}
+.money{
+	color: #BAEFB9;
+}
+/*快速下注按钮*/
+.ksxz{
+	margin: 0.5em 0px 0em 25%;
+	border-radius: 2px;
+	background: #694D3E;
+	color: #CCB081;
+	width: 50%;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+}
+.ksxz:hover{
+	background: #EBCD98;
+}
+.xztr{
+	
+	background: #2E2421;
+}
+.bodiv{
+	margin-bottom: 0.5em;
+}
+/*.xztd1{
+	padding-top:0.7em;
+	padding-bottom: 0.7em;
+}
+.xztd2{
+	padding-bottom: 0.7em;
+}*/
+.okxz{
+	font-size: 0.9em;
+	width: 90%;
+	height: 2.5em;
+	line-height: 2.5em;
+	text-align: center;
+	color: white;
+	background: #0CC089;
+	border-radius:2px;
+	margin: 0.5em 0px 0.5em 5%;
+}
+.qxxz{
+	font-size: 0.9em;
+	width: 90%;
+	height: 2.5em;
+	line-height: 2.5em;
+	text-align: center;
+	background: #CCB9A4;
+	border-radius:2px;
+	margin: 0.5em 0px 0.5em 5%;
+}
+.dantitle{
+	color: #CCB08C;
+	height: 2em;
+	padding-left: 0.6em;
+	font-size: 0.8em;
+}
+.danmoney{
+	color: #CCB08C;
+	height: 2em;
+	padding-left: 0.5em;
+	text-align: right;
+	font-size: 0.8em;
+}
+/*我的注单div*/
+.wdzddiv{
+	
+	
+	display: none;
+	/*border: 1px solid red;*/
+}
+.ttable{
+	width: 100%;
+	/*border-bottom: 1px solid black;*/
+}
+.ttablew{
+	border-bottom: 1px solid #CCB08C;
+}
+.ttable td{
+	height: 2em;
+	/*border: 1px solid black;*/
+}
+.otdt{
+	font-size: 1em;
+	color: #fff1d6;
+}
+.xotdt{
+	font-size: 0.9em;
+	color: #c0b49e;
+}
+.zdtishi{
+	
+	display: none;
+	background: white;
+	height: 2.5em;
+	line-height: 2.5em;
+	font-size: 0.8em;
+	padding-left: 0.5em;
+}
+.jttd{
+	text-align: center;
+	color: #E2BC87;
+}
+/*未结算表格*/
+.wjs{
+	/*border: 1px solid black;*/
+	width: 100%;
+	/*margin-left: 2%;*/
+	background: white;
+	border-bottom: 1px solid #fff1d6;
+}
+.jia{
+	margin-left: 75%;
+	text-align: center;
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	border-radius: 50%;
+	background: black;
+	color:white;
+}
+.wjs td{
+	font-size: 0.9em;
+	/*border: 1px solid black;*/
+}
+.wjs td:nth-child(1){
+	height: 2em;
+	width: 3%;
+}
+.wjsdiv{
+	display: none;
+	width: 100%;
+}
+.yjsdiv{
+	width: 100%;
+	display: none;
+}
+.qq{
+	border-bottom: 1px dashed indianred;
+	border-top: 1px dashed indianred;
+}
+.wjs td:nth-child(2){
+	height: 2em;
+}
+.wjs td:nth-child(3){
+	height: 2em;
+	/*border-bottom: 1px dashed indianred;*/
+	text-align: right;
+}
+.wjs td:nth-child(4){
+	height: 2em;
+	width: 3%;
+}
+.hmpl{
+	height: 2em;
+	font-size: 0.9em;
+	color: deepskyblue;
+}
+.plcolor{
+	color: red;
+	font-weight: 500;
+}
+.lasttr td{
+	padding-bottom: 1em;
+}
+.yjs{
+	border: 1px solid black;
+	width: 100%;
+}
+.yjs td{
+	border: 1px solid black;
+}
+/*弹框*/
+.tkbj{
+	display: none;
+	z-index: 1000;
+	position: fixed;
+	border: 1px solid red;
+	width: 15%;
+	height: 48em;
+	background: black;
+	opacity: 0.3;
+	margin-top: 2em;
+	
+}
+.tk{
+	display: none;
+	/*border: 1px solid black;*/
+	z-index: 1001;
+	position: fixed;
+	background: white;
+	width: 15%;
+	margin: 7em 0px 0px 0px;
+	height: 14em;
+}
+.tktr1{
+	border-bottom: 1px dashed orangered;
+}
+.tkt{
+	margin-top: 0.5em;
+	width: 98%;
+	font-size: 0.9em;
+	/*border: 1px solid black;*/
+	margin-left: 1%;
+}
+.tkpl{
+	color: red;
+}
+.tkt td{
+	padding-left: 0.2em;
+	color: #898887;
+	padding-top: 0.3em;
+	/*border: 1px solid black;*/
+}
+.tkt td:nth-child(2){
+	text-align: right;
+}
+/*弹框关闭按钮*/
+.gb{
+	color: black;
+	border-radius: 0.2em;
+	background: #CDCBCA;
+	/*border: 1px solid black;*/
+	width: 90%;
+	height: 2.5em;
+	line-height: 2.5em;
+	text-align: center;
+	margin: 1em 0px 0.5em 5%;
+}

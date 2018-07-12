@@ -1,0 +1,137 @@
+/*开奖区域*/
+.kjdiv{
+	border: 1px solid black;
+	width: 50em;
+	height: 7em;
+	/*margin-top: -15em;*/
+	/*margin-left: 20em;*/
+}
+.kjp{
+	margin-top: 0em;
+	margin-left: 1em;
+	border: 1px solid black;
+	width: 5em;
+}
+.dqp{
+	line-height: 100%;
+	width: 25%;
+	border: 1px solid red;
+}
+/*开奖号码外面的div*/
+.tablediv{
+	margin-top: -1em;
+	height: 40%;
+	width: 70%;
+	border: 1px solid black;
+	margin-left: 30%;
+}
+.yuantable{
+	margin-top: -3em; 
+	margin-left: 30%;
+	width: 60%;
+	border: 1px solid brown;
+}
+.yuantable td{
+	text-align: center;
+	border: 1px solid brown;
+}
+.bg{
+	cursor: default;
+	color: white;
+	background: lightgray;
+	text-align: center;
+	line-height: 2em;
+	border-radius: 50%;
+	margin-left: 1em;
+	border: 1px solid black;
+	width: 2.5em;
+	height: 2em;
+}
+/*最后一个td存放开奖号码之和*/
+.fourtd{
+	cursor: default;
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	border-radius: 50%;
+	margin-left: 1em;
+	border: 1px solid black;
+	width: 2.5em;
+	height: 2em;
+	background: red;
+}
+/*最后一行table*/
+.newtable{
+	font-size: 0.8em;
+	width: 100%;
+	margin-top: 0.3em;
+	border: 1px solid black;
+}
+.newtable td{
+	text-align: center;
+	border: 1px solid red;
+}
+.kjtime{
+	color: red;
+}
+.newnum{
+	color: green;
+}
+/*下注区域*/
+.xiazhu{
+	border: 1px solid black;
+	width: 40em;
+	height: 25em;
+	/*margin-left: 20em;*/
+	/*margin-top: -7em;*/
+}
+.xztable{
+	border-collapse:collapse;
+	font-size: 0.5em;
+	width: 100%;
+	border: 1px solid black;
+}
+.xztable td{
+	cursor: default;
+	text-align: center;
+	border: 1px solid black;
+}
+.xztable input{
+	width: 2em;
+}
+/*下注按钮*/
+.xzbutton{
+	font-size: 0.8em;
+	border-radius: 0.2em;
+	cursor: default;
+	margin-top: -1.5em;
+	margin-left: 55%;
+	letter-spacing:0.2em;
+	width: 3.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	color: white;
+	background: dodgerblue;
+}
+.chongzhi{
+	font-size: 0.8em;
+	border-radius: 0.2em;
+	cursor: default;
+	margin-top: 1.5em;
+	margin-left: 45%;
+	letter-spacing:0.2em;
+	width: 3.5em;
+	height: 1.5em;
+	line-height: 1.5em;
+	text-align: center;
+	color: white;
+	background: dodgerblue;
+}
+.peilv{
+	color: red;
+}
+.peilvspan:hover{
+	text-decoration: underline;
+}
+

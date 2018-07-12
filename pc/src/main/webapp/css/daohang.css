@@ -1,0 +1,85 @@
+.left{
+	float: left;
+	width: 10%;
+	height: 35em;
+	background: #513F33;
+	border: 1px solid black;
+}
+.tleftt a{
+	color: #D9CAAD;
+	text-decoration:none;
+}
+.tleftt{
+	/*border: 1px solid black;*/
+	font-size: 0.7em;
+	color: #D9CAAD;
+}
+.tleftt td{
+	cursor: default;
+	padding: 1em 0px 0px 0.5em;
+	/*border: 1px solid black;*/
+}
+.tleftt td:hover{
+	cursor: hand;
+	color: #FFD782;
+}
+.title{
+	font-size: 1.2em;
+	color: #FFF1D6;
+}
+.bz{
+	height: 3em;
+	padding-bottom: -1em;
+}
+/*右边div*/
+.rightdiv{
+	float: left;
+	border: 1px solid black;
+	height: 35em;
+	width: 89%;
+}
+.diframe{
+	width: 100%;
+	height: 100%;
+}
+/*账户历史*/
+.zhlsdiv{
+	
+	width: 100%;
+	border: 1px solid black;
+}
+.zhls{
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: right;
+	line-height: 2.5em;
+	
+}
+/*搜所表格*/
+.ssdiv{
+	width: 100%;
+	height: 3em;
+	background: #FFFFFF;
+}
+.sst{
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid black;
+}
+.sst td{
+	height:2.8em;
+	border: 1px solid black;
+}
+.zhlst{
+	
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+}
+.zhlstitle{
+	background: #725945;
+}
+.zhlst td{
+	text-align: center;
+	border: 1px solid black;
+}

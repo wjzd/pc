@@ -1,0 +1,95 @@
+/*账户历史*/
+.zhlsdiv{
+	width: 100%;
+	border: 1px solid black;
+	margin-left: -0.6em;
+	margin-top: -1em;
+}
+.zhls{
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: right;
+	line-height: 2.5em;
+	
+}
+.hright{
+	width: 100%;
+	height: 2.5em;
+	background: #513F33;
+}
+/*搜所表格*/
+.ssdiv{
+	width: 100%;
+	height: 3em;
+	background: #FFFFFF;
+}
+.sst{
+	border-collapse: collapse;
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin-left: 25%;
+}
+.sst td{
+	text-align: center;
+	height:2em;
+	/*border: 1px solid black;*/
+}
+.sst td:nth-child(2){
+	width: 30%;
+}
+.sst td:nth-child(4){
+	width: 33%;
+}
+.zhlst{
+	
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+}
+.zhlstitle{
+	background: #725945;
+}
+.zhlst td{
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+.sxun{
+	margin-left: 3em;
+	cursor: default;
+	width:4em;
+	height: 2em;
+	font-size: 0.9em;
+	line-height: 2em;
+	text-align: center;
+	color: white;
+	background: #7A6250;
+	/*按钮颜色：#FBE9DD  边框颜色：#F2E6D6 字体颜色：#83807B*/
+}
+.sxun:hover{
+	background: #F6CAA1;
+}
+.timetable{
+	border-collapse: collapse;
+	
+	border: 1px solid #F6CAA1;
+}
+.timetable td{
+	/*border: 1px solid black;*/
+}
+.timetable td:nth-child(1){
+	width: 80%;
+}
+.timetable input{
+	border: 0px;
+	outline:none;
+	height: 1.8em;
+	width: 95%
+}
+.timetable div{
+	cursor: default;
+	width: 1.8em;
+	height: 1.8em;
+	text-align: center;
+	line-height: 1.8em;
+	background: #FBE9DD;
+}

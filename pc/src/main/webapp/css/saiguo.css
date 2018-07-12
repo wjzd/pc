@@ -1,0 +1,40 @@
+.sgdiv{
+	width: 100%;
+	border: 1px solid black;
+	margin-left: -0.6em;
+	margin-top: -1em;
+}
+.hright{
+	width: 100%;
+	height: 2.5em;
+	background: #513F33;
+	text-align: right;
+	
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: right;
+	line-height: 2.5em;
+}
+.htable{
+	width: 100%;
+	border: 1px solid black;
+}
+.htable td{
+	text-align: center;
+	border: 1px solid black;
+	
+}
+.htable th{
+	border: 1px solid black;
+}
+.htable td:nth-child(6){
+	color: red;
+}
+/*底部的分页*/
+.fenye{
+	border: 1px solid black;
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+

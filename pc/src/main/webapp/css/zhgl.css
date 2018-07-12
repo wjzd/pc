@@ -1,0 +1,40 @@
+.adiv{
+	border: 1px solid black;
+}
+.atable{
+	width: 50%;
+	border: 1px solid black;
+}
+.atable td{
+	cursor: default;
+	text-align: center;
+	border: 1px solid black;
+}
+.sssubmit{
+	color: white;
+	cursor: default;
+	text-align: center;
+	width: 3em;
+	height: 1.5em;
+	line-height: 1.5em;
+	background: cadetblue;
+}
+.sstable{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.sstable td{
+	
+	border: 1px solid black;
+}
+/*会员信息表格*/
+.infot{
+	margin-top: 2em;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.infot td{
+	cursor: default;
+	text-align: center;
+	border: 1px solid black;
+}

@@ -1,0 +1,28 @@
+/*修改下注赔率*/
+.xztable{
+	border-collapse:collapse;
+	font-size: 0.5em;
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid black;
+}
+.xztable td{
+	cursor: default;
+	text-align: center;
+	border: 1px solid black;
+}
+.xztable input{
+	width: 2em;
+}
+/*确认修改按钮*/
+.qrxg{
+	cursor: default;
+	margin-left: 50%;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.3;
+	width: 5em;
+	height: 2.5em;
+	line-height: 2.5em;
+	background: cornflowerblue;
+}

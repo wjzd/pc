@@ -1,0 +1,53 @@
+.rdiv{
+	background: #F2EBDD;
+	/*border: 1px solid black;*/
+	width: 40%;
+	height: 25em;
+	margin-left: 30%;
+	margin-top: 6em;
+}
+.title{
+	background: #55422C;
+	/*border: 1px solid black;*/
+	width: 95%;
+	height:3em;
+	padding-left:5% ;
+	line-height: 3em;
+	font-size: 1.1em;
+	color: white;
+}
+.rtable{
+	margin-top: 2em;
+	margin-left: 5%;
+	/*border: 1px solid black;*/
+	width: 90%;
+	
+}
+.rtable input{
+	outline:none;
+	width: 80%;
+	height: 2.5em;
+}
+.rtable td{
+	height: 3em;
+	/*border: 1px solid black;*/
+}
+.rtable td:nth-child(1){
+	text-align: right;
+}
+.submitdiv{
+	font-size: 1em;
+	letter-spacing: 0.2em;
+	cursor: default;
+	width: 50%;
+	background: #00A777;
+	height: 3em;
+	line-height: 3em;
+	color: white;
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 3em;
+}
+.submitdiv:hover{
+	background: #0FC691;
+}

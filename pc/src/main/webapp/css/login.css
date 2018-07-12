@@ -1,0 +1,144 @@
+/*顶部*/
+div{
+	cursor: default;
+}
+p{
+	cursor: default;
+}
+span{
+	cursor: default;
+}
+.head{
+	background-color: #544033;
+	width:100%;
+	height: 4em;
+}
+.logindiv{
+	background: #EFEAE0;
+	width: 28%;
+	height: 30em;
+	/*border: 1px solid black;*/
+	margin-top: 3em;
+	margin-left: 36%;
+}
+.logintable{
+	margin-top: 2em;
+	width: 90%;
+	margin-left: 5%;
+	/*border: 1px solid black;*/
+}
+.logintable td{
+	padding-top: 0.5em;
+	padding-bottom:0.5em ;
+	/*height: 4em;*/
+	/*border: 1px solid black;*/
+}
+/*第一行tr*/
+.on{
+	border: 1px solid #7A6250;
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+.newdiv{
+	background:#7A6250;
+	color: #FFD68C;
+}
+.olddiv{
+	color: #7A6250;
+}
+/*图标*/
+.tp{
+	background: white;
+	height:4em;
+	width: 100%;
+	border-top: 1px solid #E7D5BB;
+}
+/*里面的div*/
+.ndiv{
+	padding-left:1em ;
+	margin-top: 1em;
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 50%;
+}
+.tubiao{
+	width: 2em;
+	/*border:1px solid black;*/
+}
+.inputdiv{
+	
+	/*border: 1px solid black;*/
+	margin-top: -2.4em;
+	margin-left: 12%;
+}
+.text{
+	outline:none;
+	border: none;
+	height: 3em;
+	width: 70%;
+}
+.loginbutton{
+	border-radius:3px ;
+	cursor: default;
+	font-size: 1.2em;
+	line-height: 2em;
+	text-align: center;
+	width: 100%;
+	height: 2em;
+	background: #00A777;
+	color: white;
+	letter-spacing:0.4em;
+}
+.wjmm{
+	letter-spacing: 0.3em;
+	font-size: 0.8em;
+	color: green;
+}
+.wjzh{
+	letter-spacing: 0.3em;
+	font-size: 0.8em;
+	color: green;
+	
+}.wjzhtd{
+	text-align: right;
+}
+.zhuce{
+	
+	cursor: default;
+	margin-top: 1em;
+	margin-left: 70%;
+	width: 20%;
+	/*border: 1px solid black;*/
+}
+.zhucea{
+	letter-spacing: 0.3em;
+	font-size: 0.8em;
+	color: green;
+}
+.zhuce:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+/*提示框*/
+.tishi{
+	display: none;
+	height: 2.5em;
+	line-height: 2.5em;
+	color: #E7716F;
+	padding-left:5% ;
+	border: 1px solid #E7716F;
+	background: #F7D9D6;
+}
+.pds{
+	width: 2em
+	/*border: 1px solid black;*/
+}
+.eyediv{
+	margin: -2.5em 0px 0px 72%;
+	width: 2em;
+	/*border: 1px solid black;*/
+}
