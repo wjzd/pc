@@ -31,7 +31,7 @@ public class Forget {
     public void forgetPasswd(String code, String email, HttpServletResponse resp){
         //判断邮箱是否存在
 
-
+        System.out.println("1111111");
         //调用邮箱接口
         boolean femail=false;
         try {
