@@ -32,6 +32,7 @@ public class Forget {
         //判断邮箱是否存在
 
         System.out.println("1111111");
+        System.out.println("222222222222");
         //调用邮箱接口
         boolean femail=false;
         try {
